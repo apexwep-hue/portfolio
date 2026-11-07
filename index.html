@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APEX | Web Developer & Digital Creative</title>
+  <meta name="description" content="APEX designs and builds modern websites, e-commerce stores, React applications, and custom digital experiences for high-growth businesses and brands.">
+  
+  <!-- Open Graph / SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="APEX | Web Developer & Digital Creative">
+  <meta property="og:description" content="Design. Develop. Elevate. Modern web design, e-commerce, and high-performance digital solutions.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "APEX - Web Developer & Digital Creative",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+    "description": "High-end website development, e-commerce stores, UI design, and bespoke digital tools.",
+    "priceRange": "$$$",
+    "knowsAbout": ["Web Development", "React", "E-Commerce", "UI/UX Design", "Website Redesign"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header" class="site-header">
+    <div class="header-container">
+      <a href="#hero" class="brand-logo" aria-label="APEX Home">
+        <span class="logo-title">APEX</span>
+        <span class="logo-subtitle">DIGITAL CREATIVE</span>
+      </a>
+
+      <nav id="main-nav" class="nav-menu" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Work</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#inquiry" class="btn btn-primary btn-sm">Start a Project</a>
+        <button id="mobile-toggle" class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg-effects">
+        <div class="glow-circle glow-1"></div>
+        <div class="glow-circle glow-2"></div>
+        <div class="grid-overlay"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow">
+            <span class="pulse-dot"></span>
+            WEB DEVELOPMENT • DIGITAL EXPERIENCES
+          </div>
+          <h1 class="hero-title">
+            I Build Digital Experiences <br>
+            That Make Businesses <span class="highlight-text"><em>Stand Out.</em></span>
+          </h1>
+          <p class="hero-description">
+            I design and develop modern websites, online stores, landing pages, and interactive digital experiences tailored to your brand and business goals.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#portfolio" class="btn btn-primary">View My Work</a>
+            <a href="#builder" class="btn btn-outline">Project Builder</a>
+          </div>
+          <div class="hero-status">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            Available for selected freelance projects
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="mockup-wrapper">
+            <div class="browser-mockup">
+              <div class="browser-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="browser-url">APEX.creative/lumiere-medical</span>
+              </div>
+              <div class="browser-body">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=80" alt="Lumiere Medical Center Visual" class="mockup-img" loading="eager">
+              </div>
+            </div>
+
+            <!-- Floating Badge Cards -->
+            <div class="float-card float-1">
+              <span class="icon">✨</span>
+              <span>Responsive Design ✓</span>
+            </div>
+            <div class="float-card float-2">
+              <span class="icon">⚡</span>
+              <span>Modern UI & UX ✓</span>
+            </div>
+            <div class="float-card float-3">
+              <span class="icon">💬</span>
+              <span>WhatsApp Integration ✓</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HERO STATS -->
+      <div class="container">
+        <div class="hero-stats-bar">
+          <div class="stat-item">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Website Concepts</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Digital Solutions</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Responsive & Fast</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">SERVICES</span>
+          <h2 class="section-title">What I Can Build For You</h2>
+          <p class="section-subtitle">From a simple landing page to a complete, custom digital experience.</p>
+        </div>
+
+        <div id="services-grid" class="services-grid">
+          <!-- Dynamically Rendered by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECT SPOTLIGHT -->
+    <section class="section featured-section">
+      <div class="container">
+        <div class="featured-card">
+          <div class="featured-badge">FEATURED CASE STUDY</div>
+          <div class="featured-grid">
+            <div class="featured-content">
+              <span class="featured-cat">Medical & Aesthetic Center</span>
+              <h3 class="featured-title">LUMIÈRE Medical Center</h3>
+              <p class="featured-desc">
+                A high-end website designed for a luxury aesthetic center. Built with interactive procedure previews, direct WhatsApp doctor booking, and seamless mobile responsive performance.
+              </p>
+              <ul class="featured-tags">
+                <li>Medical Booking</li>
+                <li>WhatsApp Integration</li>
+                <li>Responsive UI</li>
+                <li>Performance Optimized</li>
+              </ul>
+              <button class="btn btn-primary open-featured-case" data-id="lumiere">Explore Case Study</button>
+            </div>
+            <div class="featured-media">
+              <div class="browser-mockup">
+                <div class="browser-header">
+                  <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                  <span class="browser-url">lumiere-aesthetic.com</span>
+                </div>
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=80" alt="Lumiere Medical Case Study">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">PORTFOLIO</span>
+          <h2 class="section-title">Selected Work</h2>
+          <p class="section-subtitle">A collection of websites, interfaces, and bespoke digital experiences I've engineered.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="portfolio-filters" role="tablist" aria-label="Portfolio Filters">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Work</button>
+          <button class="filter-btn" data-filter="websites" role="tab" aria-selected="false">Websites</button>
+          <button class="filter-btn" data-filter="e-commerce" role="tab" aria-selected="false">E-Commerce</button>
+          <button class="filter-btn" data-filter="react" role="tab" aria-selected="false">React</button>
+          <button class="filter-btn" data-filter="business" role="tab" aria-selected="false">Business</button>
+          <button class="filter-btn" data-filter="landing-pages" role="tab" aria-selected="false">Landing Pages</button>
+          <button class="filter-btn" data-filter="dashboards" role="tab" aria-selected="false">Dashboards</button>
+        </div>
+
+        <!-- Grid -->
+        <div id="portfolio-grid" class="portfolio-grid">
+          <!-- Dynamically Rendered by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE ME -->
+    <section id="why-me" class="section dark-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">THE DIFFERENCE</span>
+          <h2 class="section-title">Why Choose Me?</h2>
+          <p class="section-subtitle">A dedicated partner focused on design quality, robust code, and real business results.</p>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-num">01</div>
+            <h3>Custom Design</h3>
+            <p>No generic templates or cookie-cutter builders. Every interface is designed specifically for your brand identity.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-num">02</div>
+            <h3>Responsive by Default</h3>
+            <p>Perfect pixel execution across high-res desktop screens, tablets, and smartphone displays.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-num">03</div>
+            <h3>Interactive Experiences</h3>
+            <p>Smooth micro-interactions, CSS animations, and functional elements that keep visitors engaged.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-num">04</div>
+            <h3>Clean Development</h3>
+            <p>Maintainable, modular, light-weight HTML5, CSS3, and JavaScript optimized for speed and clarity.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-num">05</div>
+            <h3>Business Focused</h3>
+            <p>Strategic layout decisions designed around conversion rate optimization and client engagement.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-num">06</div>
+            <h3>Direct Communication</h3>
+            <p>Work directly with me—the creator. Clear progress updates, fast responses, and transparent timelines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual">
+            <div class="portrait-card">
+              <div class="portrait-frame">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="APEX - Digital Creative">
+              </div>
+              <div class="portrait-overlay">
+                <span class="portrait-name">APEX</span>
+                <span class="portrait-title">Web Developer & Digital Creative</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <span class="section-tag">ABOUT ME</span>
+            <h2 class="section-title">More Than Just a Website.</h2>
+            <p class="about-lead">
+              I combine design thinking, frontend engineering, and digital creativity to create experiences that look luxury, function seamlessly, and deliver results.
+            </p>
+            <p class="about-text">
+              Whether you need an elegant corporate platform, a modern e-commerce online store, or a custom web tool, I translate complex requirements into intuitive digital products.
+            </p>
+
+            <div class="skills-block">
+              <h4>Core Capabilities</h4>
+              <div class="skills-pills">
+                <span class="skill-pill">HTML5 & CSS3</span>
+                <span class="skill-pill">Vanilla JavaScript</span>
+                <span class="skill-pill">React Development</span>
+                <span class="skill-pill">UI / Web Design</span>
+                <span class="skill-pill">E-Commerce Architecture</span>
+                <span class="skill-pill">Responsive Design</span>
+                <span class="skill-pill">Performance Optimization</span>
+                <span class="skill-pill">WhatsApp API Integration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS SECTION -->
+    <section id="process" class="section dark-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">HOW IT WORKS</span>
+          <h2 class="section-title">From Idea to Launch</h2>
+          <p class="section-subtitle">A structured, transparent workflow designed for speed, clarity, and peace of mind.</p>
+        </div>
+
+        <div class="process-timeline">
+          <div class="timeline-step">
+            <div class="step-badge">01</div>
+            <h3>Discover</h3>
+            <p>Understand your business, target audience, brand aesthetic, and project objectives.</p>
+          </div>
+          <div class="timeline-step">
+            <div class="step-badge">02</div>
+            <h3>Plan</h3>
+            <p>Define site structure, content hierarchy, functional requirements, and tech scope.</p>
+          </div>
+          <div class="timeline-step">
+            <div class="step-badge">03</div>
+            <h3>Design</h3>
+            <p>Create visual direction, responsive layouts, color application, and typography system.</p>
+          </div>
+          <div class="timeline-step">
+            <div class="step-badge">04</div>
+            <h3>Develop</h3>
+            <p>Build the solution with clean HTML5/CSS/JS, interactive components, and fast loading speeds.</p>
+          </div>
+          <div class="timeline-step">
+            <div class="step-badge">05</div>
+            <h3>Launch</h3>
+            <p>Final testing, responsive verification, deployment, and handover of files.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">TRANSPARENT VALUE</span>
+          <h2 class="section-title">Simple Starting Packages</h2>
+          <p class="section-subtitle">Tailored offerings designed to fit different stages of business growth.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Starter Package -->
+          <div class="price-card">
+            <div class="price-header">
+              <span class="package-name">STARTER</span>
+              <h3 class="package-title">Landing Page</h3>
+              <div class="price-tag">Starting from <span class="amount">EGP X</span></div>
+              <p class="price-desc">Ideal for launching a new product, service, or single promotional campaign.</p>
+            </div>
+            <ul class="price-features">
+              <li>✓ 1–3 Custom Sections</li>
+              <li>✓ 100% Mobile Responsive</li>
+              <li>✓ Contact Form / WhatsApp CTA</li>
+              <li>✓ Smooth UI Animations</li>
+              <li>✓ SEO Meta Tagging</li>
+            </ul>
+            <a href="#inquiry" class="btn btn-outline full-width select-package" data-package="Starter - Landing Page">Select Package</a>
+          </div>
+
+          <!-- Business Package (Popular) -->
+          <div class="price-card featured">
+            <div class="popular-ribbon">MOST POPULAR</div>
+            <div class="price-header">
+              <span class="package-name">BUSINESS</span>
+              <h3 class="package-title">Business Website</h3>
+              <div class="price-tag">Starting from <span class="amount">EGP X</span></div>
+              <p class="price-desc">Complete corporate or showcase website for established companies.</p>
+            </div>
+            <ul class="price-features">
+              <li>✓ 5–8 Multi-purpose Sections</li>
+              <li>✓ High-Converting UI Design</li>
+              <li>✓ Direct WhatsApp Integration</li>
+              <li>✓ Interactive Portfolio / Services</li>
+              <li>✓ Google Maps & Contact Form</li>
+              <li>✓ Fast Performance Tuning</li>
+            </ul>
+            <a href="#inquiry" class="btn btn-primary full-width select-package" data-package="Business Website">Select Package</a>
+          </div>
+
+          <!-- Premium Package -->
+          <div class="price-card">
+            <div class="price-header">
+              <span class="package-name">PREMIUM</span>
+              <h3 class="package-title">Advanced Web App</h3>
+              <div class="price-tag">Starting from <span class="amount">EGP X</span></div>
+              <p class="price-desc">Custom web application, React front-end, or e-commerce solution.</p>
+            </div>
+            <ul class="price-features">
+              <li>✓ Unlimited / Bespoke Structure</li>
+              <li>✓ E-Commerce / Product Catalog</li>
+              <li>✓ Custom Interactive Tools</li>
+              <li>✓ React Component Architecture</li>
+              <li>✓ Priority Support & Handover</li>
+            </ul>
+            <a href="#inquiry" class="btn btn-outline full-width select-package" data-package="Premium / Custom Solution">Select Package</a>
+          </div>
+        </div>
+
+        <div class="pricing-footer text-center">
+          <p>Need something custom or unique? <a href="#inquiry" class="link-purple">Request a Custom Quote &rarr;</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT BUILDER WIZARD -->
+    <section id="builder" class="section dark-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">INTERACTIVE TOOL</span>
+          <h2 class="section-title">What Do You Need?</h2>
+          <p class="section-subtitle">Use this step-by-step tool to configure your project requirements in under 60 seconds.</p>
+        </div>
+
+        <div class="builder-wrapper">
+          <div class="builder-progress">
+            <div class="progress-bar-fill" id="builder-progress-bar" style="width: 25%;"></div>
+          </div>
+
+          <div class="builder-steps-container">
+            <!-- Step 1 -->
+            <div class="builder-step active" data-step="1">
+              <h3>Step 1: What type of digital solution do you need?</h3>
+              <div class="options-grid" data-field="projectType">
+                <button type="button" class="option-btn" data-val="Business Website">Business Website</button>
+                <button type="button" class="option-btn" data-val="E-Commerce Store">E-Commerce Store</button>
+                <button type="button" class="option-btn" data-val="Landing Page">Landing Page</button>
+                <button type="button" class="option-btn" data-val="React Application">React Application</button>
+                <button type="button" class="option-btn" data-val="Website Redesign">Website Redesign</button>
+                <button type="button" class="option-btn" data-val="Custom Web Tool">Custom Web Tool</button>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="builder-step" data-step="2">
+              <h3>Step 2: What is your industry / business domain?</h3>
+              <div class="options-grid" data-field="industry">
+                <button type="button" class="option-btn" data-val="Healthcare & Medical">Healthcare & Medical</button>
+                <button type="button" class="option-btn" data-val="Restaurant & Food">Restaurant & Hospitality</button>
+                <button type="button" class="option-btn" data-val="Fashion & E-Commerce">Fashion & Retail</button>
+                <button type="button" class="option-btn" data-val="Real Estate">Real Estate</button>
+                <button type="button" class="option-btn" data-val="Technology & SaaS">Technology & SaaS</button>
+                <button type="button" class="option-btn" data-val="Personal Brand">Personal Brand / Creative</button>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="builder-step" data-step="3">
+              <h3>Step 3: Select key features required (Multiple choices)</h3>
+              <div class="options-grid multi-select" data-field="features">
+                <button type="button" class="option-btn" data-val="WhatsApp Booking">WhatsApp Booking</button>
+                <button type="button" class="option-btn" data-val="Product Shopping Cart">Product Shopping Cart</button>
+                <button type="button" class="option-btn" data-val="Interactive Dashboard">Interactive Dashboard</button>
+                <button type="button" class="option-btn" data-val="Gallery / Portfolio">Gallery / Portfolio</button>
+                <button type="button" class="option-btn" data-val="Contact Form">Contact Form</button>
+                <button type="button" class="option-btn" data-val="Google Maps Integration">Google Maps</button>
+                <button type="button" class="option-btn" data-val="Custom UI Animations">Custom UI Animations</button>
+              </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="builder-step" data-step="4">
+              <h3>Step 4: Estimated Budget Range</h3>
+              <div class="options-grid" data-field="budget">
+                <button type="button" class="option-btn" data-val="Under EGP 5,000">Under EGP 5,000</button>
+                <button type="button" class="option-btn" data-val="EGP 5,000 – 10,000">EGP 5,000 – 10,000</button>
+                <button type="button" class="option-btn" data-val="EGP 10,000 – 20,000">EGP 10,000 – 20,000</button>
+                <button type="button" class="option-btn" data-val="EGP 20,000+">EGP 20,000+</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Summary View -->
+          <div class="builder-summary" id="builder-summary" style="display: none;">
+            <h3>Your Selected Configuration:</h3>
+            <div class="summary-details" id="summary-details"></div>
+            <button type="button" id="apply-builder-btn" class="btn btn-primary margin-top">Start My Project With These Specs &rarr;</button>
+          </div>
+
+          <div class="builder-nav">
+            <button type="button" id="builder-prev-btn" class="btn btn-outline btn-sm" disabled>Previous</button>
+            <button type="button" id="builder-next-btn" class="btn btn-primary btn-sm">Next Step</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT INQUIRY FORM -->
+    <section id="inquiry" class="section">
+      <div class="container">
+        <div class="inquiry-grid">
+          <div class="inquiry-info">
+            <span class="section-tag">PROJECT INQUIRY</span>
+            <h2 class="section-title">Let's Discuss Your Project</h2>
+            <p>
+              Fill out this quick brief and it will format a clean WhatsApp project inquiry message to send directly to my personal line.
+            </p>
+            <div class="direct-contacts">
+              <div class="contact-item">
+                <span class="c-label">Direct Email:</span>
+                <a href="mailto:hello@example.com" id="config-email" class="c-val">hello@example.com</a>
+              </div>
+              <div class="contact-item">
+                <span class="c-label">WhatsApp:</span>
+                <span id="config-phone" class="c-val">+20 100 000 0000</span>
+              </div>
+              <div class="contact-item">
+                <span class="c-label">Location:</span>
+                <span class="c-val">Cairo, Egypt / Available Worldwide</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="inquiry-form-card">
+            <form id="project-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName">Full Name *</label>
+                  <input type="text" id="fullName" name="fullName" placeholder="e.g. Sarah Mansour" required>
+                  <span class="error-msg" id="err-fullName"></span>
+                </div>
+                <div class="form-group">
+                  <label for="businessName">Business / Brand Name *</label>
+                  <input type="text" id="businessName" name="businessName" placeholder="e.g. Aurelia Studio" required>
+                  <span class="error-msg" id="err-businessName"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" placeholder="sarah@example.com" required>
+                  <span class="error-msg" id="err-email"></span>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number / WhatsApp *</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+20 1xx xxx xxxx" required>
+                  <span class="error-msg" id="err-phone"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="projectType">Project Type</label>
+                  <select id="projectType" name="projectType">
+                    <option value="Business Website">Business Website</option>
+                    <option value="E-Commerce Store">E-Commerce Store</option>
+                    <option value="Landing Page">Landing Page</option>
+                    <option value="React Application">React Application</option>
+                    <option value="Website Redesign">Website Redesign</option>
+                    <option value="Custom Solution">Custom Solution</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="budget">Budget Estimate</label>
+                  <select id="budget" name="budget">
+                    <option value="Under EGP 5,000">Under EGP 5,000</option>
+                    <option value="EGP 5,000 - 10,000">EGP 5,000 - 10,000</option>
+                    <option value="EGP 10,000 - 20,000">EGP 10,000 - 20,000</option>
+                    <option value="EGP 20,000+">EGP 20,000+</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="timeline">Desired Timeline</label>
+                <input type="text" id="timeline" name="timeline" placeholder="e.g. 2-3 Weeks / Urgent">
+              </div>
+
+              <div class="form-group">
+                <label for="featuresList">Requested Features / Notes</label>
+                <input type="text" id="featuresList" name="featuresList" placeholder="e.g. WhatsApp booking, custom gallery, payment link">
+              </div>
+
+              <div class="form-group">
+                <label for="currentWebsite">Current Website Link (If any)</label>
+                <input type="url" id="currentWebsite" name="currentWebsite" placeholder="https://">
+              </div>
+
+              <div class="form-group">
+                <label for="description">Project Details / Goals *</label>
+                <textarea id="description" name="description" rows="4" placeholder="Describe what you want to build and what you aim to achieve..." required></textarea>
+                <span class="error-msg" id="err-description"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary full-width">Send Brief via WhatsApp &rarr;</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT HIGHLIGHTS / PROOF -->
+    <section class="section dark-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">QUALITY STANDARDS</span>
+          <h2 class="section-title">Built With Precision</h2>
+          <p class="section-subtitle">Every project is built to meet high technical standards.</p>
+        </div>
+
+        <div class="highlights-grid">
+          <div class="highlight-box">
+            <h4>Modern Architecture</h4>
+            <p>Clean HTML5 semantics, organized CSS variables, and modern modular ES6 JavaScript.</p>
+          </div>
+          <div class="highlight-box">
+            <h4>Speed & Performance</h4>
+            <p>Optimized image loading, zero framework bloat, and fast initial page loads.</p>
+          </div>
+          <div class="highlight-box">
+            <h4>Touch-First Responsive</h4>
+            <p>Tested across viewports down to 375px width to eliminate overflow issues.</p>
+          </div>
+          <div class="highlight-box">
+            <h4>Direct Conversion</h4>
+            <p>Strategic calls-to-action that integrate directly into WhatsApp for immediate customer leads.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">QUESTIONS & ANSWERS</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Everything you need to know before starting a project with me.</p>
+        </div>
+
+        <div id="faq-accordion" class="faq-accordion">
+          <!-- Rendered dynamically by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT CTA SECTION -->
+    <section id="contact" class="section dark-section text-center">
+      <div class="container">
+        <div class="contact-card">
+          <span class="section-tag">START TODAY</span>
+          <h2 class="section-title">Have a Project in Mind?</h2>
+          <p class="contact-lead">Let's turn your idea into something people remember.</p>
+          <div class="cta-flex">
+            <a href="#inquiry" class="btn btn-primary">Start a Project</a>
+            <a href="#" id="direct-wa-btn" target="_blank" rel="noopener" class="btn btn-outline">Chat on WhatsApp</a>
+          </div>
+          <div class="social-links-bar">
+            <a href="#" id="social-instagram" target="_blank" rel="noopener">Instagram</a>
+            <a href="#" id="social-linkedin" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="#" id="social-github" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <a href="#hero" class="brand-logo">
+          <span class="logo-title">APEX</span>
+          <span class="logo-subtitle">DIGITAL CREATIVE</span>
+        </a>
+        <p class="footer-desc">Digital experiences built with purpose, luxury aesthetic, and modern code.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigation</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Services</h4>
+        <ul>
+          <li>Web Development</li>
+          <li>E-Commerce Stores</li>
+          <li>React Development</li>
+          <li>UI / Web Design</li>
+          <li>Landing Pages</li>
+          <li>Website Redesign</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Connect</h4>
+        <ul>
+          <li><a href="#" id="foot-instagram" target="_blank">Instagram</a></li>
+          <li><a href="#" id="foot-linkedin" target="_blank">LinkedIn</a></li>
+          <li><a href="#" id="foot-github" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom text-center">
+      <p>&copy; 2026 APEX. All Rights Reserved. Designed & Developed by APEX.</p>
+    </div>
+  </footer>
+
+  <!-- FLOATING BUTTONS -->
+  <a href="#" id="floating-whatsapp" class="floating-wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+    <span class="wa-text">Let's Talk</span>
+  </a>
+
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
+    ↑
+  </button>
+
+  <!-- MODALS CONTAINER -->
+  <!-- Service Modal -->
+  <div id="service-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="service-modal-title">
+    <div class="modal-card">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div id="service-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Case Study Modal -->
+  <div id="case-study-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="case-modal-title">
+    <div class="modal-card modal-lg">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div id="case-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
